@@ -113,6 +113,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/imageView24"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -120,9 +121,10 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageView
+            app:layout_constraintBottom_toBottomOf="@id/img18"
             android:id="@+id/imageView24"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:scaleType="fitXY"
             app:layout_constraintEnd_toStartOf="@+id/img18"
             app:layout_constraintHorizontal_bias="0.5"
